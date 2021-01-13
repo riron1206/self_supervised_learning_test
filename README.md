@@ -8,6 +8,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 
 ## SwAV 
 https://arxiv.org/abs/2006.09882
+
 埋め込みベクトルにクラスタリングを適応したSelf-Supervised Learning
 
 #### Backborn Model
@@ -31,6 +32,7 @@ https://arxiv.org/abs/2006.09882
 
 ## BYOL
 https://arxiv.org/abs/2006.07733
+
 Negative sampleが不要なSelf-Supervised Learning
 
 #### Backborn Model
