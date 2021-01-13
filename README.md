@@ -1,4 +1,4 @@
-# Self Supervised Learning試す
+# Self-Supervised Learning試す
 
 データはkaggleのキャッサバコンペ
 
@@ -7,11 +7,13 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 <br>
 
 ## SwAV 
+https://arxiv.org/abs/2006.09882
+埋め込みベクトルにクラスタリングを適応したSelf-Supervised Learning
 
 #### Backborn Model
 - ResNet50
 
-#### Self Supervised Training
+#### Self-Supervised Training
 
 - https://www.kaggle.com/anonamename/swav-tf
 
@@ -28,11 +30,13 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 <img src="image/SwAV_SL.png" alt="SwAV_SL.png" style="zoom:75%;" />
 
 ## BYOL
+https://arxiv.org/abs/2006.07733
+Negative sampleが不要なSelf-Supervised Learning
 
 #### Backborn Model
 - SeResNeXT50_32x4d
 
-#### Self Supervised Training
+#### Self-Supervised Training
 
 - 実行環境: windows10, anaconda (pytorch- lightning 1.11.0 etc: [lightning.yml](env/lightning.yml))
 
