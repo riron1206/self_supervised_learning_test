@@ -1,6 +1,6 @@
 # Self Supervised Learning試す
 
-データ: kaggleのキャッサバコンペ
+データはkaggleのキャッサバコンペ
 
 https://www.kaggle.com/c/cassava-leaf-disease-classification
 
@@ -23,7 +23,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 
 - SwAVの重みで学習: [swav-tf-linear-evaluation_local.ipynb](SwAV/swav-tf-linear-evaluation_local.ipynb)
 
-  
+  <br>
 
 <img src="image/SwAV_SL.png" alt="SwAV_SL.png" style="zoom:75%;" />
 
@@ -47,7 +47,7 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 - ①のモデル+画像サイズ512*512: [byol-pytorch_seresnext50_32x4d_Supervised_Training_512.ipynb](BYOL/byol-pytorch_seresnext50_32x4d_Supervised_Training_512.ipynb)
 - ➁のモデル+画像サイズ512*512: [Supervised_Training_512_aug_byol-pytorch_seresnext50_32x4d_512.ipynb](BYOL/Supervised_Training_512_aug_byol-pytorch_seresnext50_32x4d_512.ipynb)
 
-
+<br>
 
 <img src="image/BYOL_SL.png" alt="BYOL_SL.png" style="zoom:75%;" />
 
