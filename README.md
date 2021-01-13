@@ -17,17 +17,24 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 
 #### Supervised Training
 
-- 実行環境: windows10, poetry (tensorflow 2.3.1 etc [pyproject.toml](env/tfgpu/pyproject.toml))
+- 実行環境: windows10, poetry (tensorflow 2.3.1 etc: [pyproject.toml](env/tfgpu/pyproject.toml))
+
 - imagenetの重みで学習: [no-swav-resnet50-v2_local.ipynb](SwAV/no-swav-resnet50-v2_local.ipynb)
+
 - SwAVの重みで学習: [swav-tf-linear-evaluation_local.ipynb](SwAV/swav-tf-linear-evaluation_local.ipynb)
 
+  
+
+<img src="image/SwAV_SL.png" alt="SwAV_SL.png" style="zoom:75%;" />
+
 ## BYOL
+
 #### Backborn Model
 - SeResNeXT50_32x4d
 
 #### Self Supervised Training
 
-- 実行環境: windows10, anaconda (pytorch- lightning 1.11.0 etc [lightning.yml](env/lightning.yml))
+- 実行環境: windows10, anaconda (pytorch- lightning 1.11.0 etc: [lightning.yml](env/lightning.yml))
 
 - ①画像サイズ224*224: [byol-pytorch_seresnext50_32x4d.ipynb](BYOL/byol-pytorch_seresnext50_32x4d.ipynb)
 - ➁画像サイズ512*512: [byol-pytorch_seresnext50_32x4d_512.ipynb](BYOL/byol-pytorch_seresnext50_32x4d_512.ipynb)
@@ -41,4 +48,6 @@ https://www.kaggle.com/c/cassava-leaf-disease-classification
 - ➁のモデル+画像サイズ512*512: [Supervised_Training_512_aug_byol-pytorch_seresnext50_32x4d_512.ipynb](BYOL/Supervised_Training_512_aug_byol-pytorch_seresnext50_32x4d_512.ipynb)
 
 
+
+<img src="image/BYOL_SL.png" alt="BYOL_SL.png" style="zoom:75%;" />
 
