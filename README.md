@@ -40,7 +40,7 @@ Negative sampleが不要なSelf-Supervised Learning
 
 #### Self-Supervised Training
 
-- 実行環境: windows10, anaconda (pytorch- lightning 1.11.0 etc: [lightning.yml](env/lightning.yml))
+- 実行環境: windows10, anaconda (pytorch- lightning 1.1.0 etc: [lightning.yml](env/lightning.yml))
 
 - ①画像サイズ224*224: [byol-pytorch_seresnext50_32x4d.ipynb](BYOL/byol-pytorch_seresnext50_32x4d.ipynb)
 - ➁画像サイズ512*512: [byol-pytorch_seresnext50_32x4d_512.ipynb](BYOL/byol-pytorch_seresnext50_32x4d_512.ipynb)
